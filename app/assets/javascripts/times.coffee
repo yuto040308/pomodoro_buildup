@@ -1,3 +1,7 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
+date = new Date()
+hour = date.getMinutes()
+minutes = date.getMinutes()
+seconds = date.getSeconds()
+
+label = document.querySelector('#test')
+label.innerHTML = 'こんにちは'
